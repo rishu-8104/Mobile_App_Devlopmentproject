@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sovellus</string>
+    <string name="welcome">Valuutanvaihtosovellus</string>
+    <string name="currencies">Vaihtokurssit</string>
+    <string name="start_gps">Aloita GPS</string>
+    <string name="jpy_rate">EUR/JPY kurssi:</string>
+    <string name="nok_rate">EUR/NOK kurssi:</string>
+    <string name="sek_rate">EUR/SEK kurssi:</string>
+    <string name="rub_rate">EUR/RUB kurssi:</string>
+    <string name="gbp_rate">EUR/GBP kurssi:</string>
+    <string name="usd_rate">EUR/USD kurssi:</string>
+    <string name="version">Versio 1.0</string>
+    <string name="header">Vaihtokurssit</string>
+    <string name="button_update">Päivitä nyt</string>
+    <string name="button_location">" Valuutanvaihtotoimisto lähellä sinua"</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalApp</string>
+    <string name="welcome">Application de change</string>
+    <string name="currencies">Taux de change</string>
+    <string name="start_gps">Démarrer le GPS</string>
+    <string name="jpy_rate">Taux EUR/JPY :</string>
+    <string name="nok_rate">Taux EUR/NOK :</string>
+    <string name="sek_rate">Taux EUR/SEK :</string>
+    <string name="rub_rate">Taux EUR/RUB :</string>
+    <string name="gbp_rate">Taux EUR/GBP :</string>
+    <string name="usd_rate">Taux EUR/USD :</string>
+    <string name="header">Taux de change</string>
+    <string name="button_update">Mettez à jour maintenant</string>
+    <string name="button_location">Agence de change près de chez vous</string>
+    <string name="version">Version 1.0</string>
+</resources>
