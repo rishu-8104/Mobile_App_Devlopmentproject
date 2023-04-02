@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="calculate_bmi">Calculer BMI</string>
+    <string name="enter_weight_in_kg">Entrez le poids en kg</string>
+    <string name="enter_height_in_cm">Entrer la taille en cm</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/cityTextView"
+        android:layout_width="366dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="casual"
+        android:text="@string/tampere"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/temperatureTextView"
+        android:layout_width="199dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="casual"
+        android:text="@string/_3c"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cityTextView" />
+
+    <TextView
+        android:id="@+id/windTextView"
+        android:layout_width="223dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="casual"
+        android:text="@string/_2m_s"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temperatureTextView" />
+
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="371dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="384dp"
+        android:fontFamily="casual"
+        android:text="@string/clear_sky"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="372dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="refreshData"
+        android:text="@string/refresh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextView"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="159dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="204dp"
+        app:layout_constraintBottom_toTopOf="@+id/descriptionTextView"
+        app:layout_constraintStart_toStartOf="@+id/temperatureTextView"
+        app:layout_constraintTop_toBottomOf="@+id/cityTextView"
+        app:layout_constraintVertical_bias="0.428"
+        app:srcCompat="@drawable/sun" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="362dp"
+        android:layout_height="42dp"
+        android:onClick="openMaps"
+        android:text="Open Maps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="362dp"
+        android:layout_height="42dp"
+        android:onClick="openWebPage"
+        android:text="open www.tuni.fi"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="362dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="setAlarm"
+        android:text="Set Alarm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
